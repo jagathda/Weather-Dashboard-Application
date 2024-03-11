@@ -6,23 +6,37 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e0e0;
+    background-color: #ffffff;
 }
 
 #search-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
 
 #search-input {
     padding: 10px;
     margin-right: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 #search-button {
     padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #89a3a3;
+    color: white;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #000000;
 }
 
 #weather-container {
     text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-   
