@@ -119,7 +119,7 @@ const displayForecastData = (data) => {
         });
     }
 
-    // Display first 4 forecast data
+    // Display first 4 values
     // document.getElementById('forecast-header').innerText = "Forecast for the next hours";
     for (let i = 0; i < 4; i++) {
         const forecastItem = forecast[i];
