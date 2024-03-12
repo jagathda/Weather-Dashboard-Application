@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header-container">
+        <h1>Find your Weather</h1>
+    </div>
     <div id="search-container">
         <input type="text" id="search-input" placeholder="Enter a city name">
         <button id="search-button">Search</button>
+        <button id="clear-button">Clear</button>
     </div>
     <div id="weather-container">
         <h2 id="city-name"></h2>
@@ -16,8 +20,11 @@
         <p id="temperatureF"></p>
         <p id="humidity"></p>
         <p id="wind-speed"></p>
-        <p id="Weather-condition"></p>
+        <p id="weather-condition"></p>
         <img id="weather-icon" src="" alt="">
+    </div>
+    <div id="forecast-container">
+        <h2 id="forecast-header"></h2>
     </div>
 
     <script src="dashboard.js"></script>

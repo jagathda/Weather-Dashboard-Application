@@ -6,11 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: white;
+    color: black;
+}
+
+#header-container{
+    padding-right: 30px;
 }
 
 #search-container {
-    margin-bottom: 20px;  
+    margin-bottom: 0px;  
 }
 
 #search-input {
@@ -18,18 +23,19 @@ body {
     margin-right: 5px;
     border: 1px solid #000000;
     border-radius: 5px;
+    background-color: rgb(217, 237, 250);
 }
 
-#search-button {
+#search-button, #clear-button{
     padding: 10px;
     border: 1px solid #000000;
     border-radius: 5px;
-    background-color: #89a3a3;
+    background-color: #7b9696;
     color: white;
     cursor: pointer;
 }
 
-#search-button:hover {
+#search-button:hover, #clear-button:hover {
     background-color: #000000;
 }
 
@@ -39,4 +45,8 @@ body {
     margin-left: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#forecast-container {
+    text-align: center;
 }
